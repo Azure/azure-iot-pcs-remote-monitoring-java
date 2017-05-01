@@ -41,7 +41,7 @@ Other documents
 
 
 [build-badge]: https://img.shields.io/travis/Azure/azure-iot-pcs-remote-monitoring-java.svg
-[build-url]: https://travis-ci.org/Azure/azure-iot-pcs-remote-monitoring-java
+[build-url]: https://travis-ci.com/Azure/azure-iot-pcs-remote-monitoring-java
 [issues-badge]: https://img.shields.io/github/issues/azure/azure-iot-pcs-remote-monitoring-java.svg
 [issues-url]: https://github.com/azure/azure-iot-pcs-remote-monitoring-java/issues
 [gitter-badge]: https://img.shields.io/gitter/room/azure/iot-pcs.js.svg
