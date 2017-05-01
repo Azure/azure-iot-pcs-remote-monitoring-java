@@ -1,3 +1,18 @@
+Contribution license Agreement
+==============================
+
+If you want/plan to contribute, we ask you to sign a [CLA](https://cla.microsoft.com/) 
+(Contribution license Agreement). A friendly bot will remind you about it when you submit 
+a pull-request.
+
+Development
+===========
+
+... notes about code style ...
+... how to run tests locally ...
+... requirements, e.g. Azure sub, IoT Hub setup etc. ...
+... useful scripts included in the project ...
+
 Development setup
 =================
 

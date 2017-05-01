@@ -3,3 +3,6 @@
 APP_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )/"
 
 cd $APP_HOME
+
+# echo required by git pre-commit hook
+echo "BUILD SUCCESSFUL"
