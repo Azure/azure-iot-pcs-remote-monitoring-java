@@ -1,9 +1,26 @@
 Contribution license Agreement
 ==============================
 
-If you want/plan to contribute, we ask you to sign a [CLA](https://cla.microsoft.com/) 
-(Contribution license Agreement). A friendly bot will remind you about it when you submit 
+If you want/plan to contribute, we ask you to sign a [CLA](https://cla.microsoft.com/)
+(Contribution license Agreement). A friendly bot will remind you about it when you submit
 a pull-request.
+
+Azure IoT Hub setup
+===================
+
+At some point you will probably want to setup your Azure IoT Hub, for
+development and integration tests.
+
+The project includes some Bash scripts to help you with this setup:
+
+* Create new IoT Hub: `./scripts/iothub/create-hub.sh`
+* List existing hubs: `./scripts/iothub/list-hubs.sh`
+* Show IoT Hub details (e.g. keys): `./scripts/iothub/show-hub.sh`
+
+and in case you had multiple Azure subscriptions:
+
+* Show subscriptions list: `./scripts/iothub/list-subscriptions.sh`
+* Change current subscription: `./scripts/iothub/select-subscription.sh`
 
 Development
 ===========
@@ -25,22 +42,6 @@ Development setup
    however anything will work.
 
 We provide also a [.NET version here](https://github.com/Azure/device-simulation-dotnet).
-
-## IoT Hub setup
-
-At some point you will probably want to setup your Azure IoT Hub, for 
-development and integration tests.
-
-The project includes some Bash scripts to help you with this setup:
-
-* Create new IoT Hub: `./scripts/iothub/create-hub.sh`
-* List existing hubs: `./scripts/iothub/list-hubs.sh`
-* Show IoT Hub details (e.g. keys): `./scripts/iothub/show-hub.sh`
-
-and in case you had multiple Azure subscriptions:
-
-* Show subscriptions list: `./scripts/iothub/list-subscriptions.sh`
-* Change current subscription: `./scripts/iothub/select-subscription.sh`
 
 ## Git setup
 

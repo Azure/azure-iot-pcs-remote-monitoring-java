@@ -97,7 +97,9 @@ verify_build() {
     header "Verifying build..."
 
     cd $APP_HOME/scripts
-    if test $(./build | grep "BUILD SUCCESSFUL" | wc -l) != 1 ; then
+    ./build
+
+    if [ $? -ne 0 ]; then
         error "Some tests failed."
         exit 1
     fi
