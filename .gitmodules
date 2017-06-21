@@ -7,6 +7,6 @@
 [submodule "iothub-manager-java"]
 	path = iothub-manager-java
 	url = git@github.com:Azure/iothub-manager-java.git
-[submodule "azure-remote-monitoring-cli"]
-	path = azure-remote-monitoring-cli
+[submodule "cli"]
+	path = cli
 	url = git@github.com:Azure/azure-remote-monitoring-cli
