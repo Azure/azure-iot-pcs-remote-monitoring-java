@@ -33,18 +33,18 @@
 # Context and Environment
 * Operating System: ...
 * GitHub branch: ...
-* .NET Runtime: ...
+* Java JDK/JRE: ...
 
 # Code to reproduce the bug
 <!-- Possibly include a test to reproduce the issue -->
 ```
-using Xunit;
+import org.junit.*;
+import org.junit.experimental.categories.Category;
 
-public class MyTest
-{
-    [Fact]
-    public void TestToReproduceIssue()
-    {
+public class MyTest {
+
+    @Test(timeout = 5000)
+    public void TestToReproduceIssue() {
         // Arrange
         ...
 
