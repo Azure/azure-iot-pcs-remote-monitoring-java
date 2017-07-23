@@ -26,8 +26,8 @@ the IoT Hub.
 
 Remote Monitoring uses Docker containers to host microservices and the
 React UI.  Microservices allow communication through REST/HTTP.  When running
-locally microservices can also be executed inside an IDE (Visual Studio, VS
-Code, etc.).  When running in the cloud the microservices are hosted using
+locally microservices can also be executed inside an IDE (IntelliJ, Eclipse,
+VS Code, etc.).  When running in the cloud the microservices are hosted using
 Azure Container Service (ACS) and Kubernetes as the Container Orchestrator.
 
 How to use it
