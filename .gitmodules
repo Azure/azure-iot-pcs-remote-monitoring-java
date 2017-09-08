@@ -6,7 +6,7 @@
 	url = git@github.com:Azure/azure-iot-pcs-remote-monitoring-webui.git
 [submodule "cli"]
 	path = cli
-	url = git@github.com:Azure/azure-remote-monitoring-cli
+	url = git@github.com:Azure/pcs-cli
 [submodule "iothub-manager"]
 	path = iothub-manager
 	url = git@github.com:Azure/iothub-manager-java
