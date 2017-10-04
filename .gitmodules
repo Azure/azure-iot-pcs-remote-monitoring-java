@@ -1,24 +1,24 @@
 [submodule "device-simulation"]
 	path = device-simulation
-	url = git@github.com:Azure/device-simulation-java.git
+	url = https://github.com/Azure/device-simulation-java.git
 [submodule "webui"]
 	path = webui
-	url = git@github.com:Azure/azure-iot-pcs-remote-monitoring-webui.git
+	url = https://github.com/Azure/azure-iot-pcs-remote-monitoring-webui.git
 [submodule "cli"]
 	path = cli
-	url = git@github.com:Azure/pcs-cli
+	url = https://github.com/Azure/pcs-cli
 [submodule "iothub-manager"]
 	path = iothub-manager
-	url = git@github.com:Azure/iothub-manager-java
+	url = https://github.com/Azure/iothub-manager-java
 [submodule "storage-adapter"]
 	path = storage-adapter
-	url = git@github.com:Azure/pcs-storage-adapter-java.git
+	url = https://github.com/Azure/pcs-storage-adapter-java.git
 [submodule "telemetry"]
 	path = telemetry
-	url = git@github.com:Azure/device-telemetry-java
+	url = https://github.com/Azure/device-telemetry-java
 [submodule "telemetry-agent"]
 	path = telemetry-agent
-	url = git@github.com:Azure/telemetry-agent-java
+	url = https://github.com/Azure/telemetry-agent-java
 [submodule "config"]
 	path = config
-	url = git@github.com:Azure/pcs-config-java.git
+	url = https://github.com/Azure/pcs-config-java.git
