@@ -57,6 +57,7 @@ will facilitate customization by showing how to replace the containers deployed
 by the CLI with your own.
 
 To run Remote Monitoring on your local machine:
+
 Once you become familiar with the solution you potentially will want to run 
 the solution locally.  You can do so through the following:
 1. Clone the repo with:
