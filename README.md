@@ -44,24 +44,28 @@ Azure Container Service (ACS) and Kubernetes as the Container Orchestrator.
 How to use it
 =============
 
+To run Remote Monitoring in your Azure Subscription:
 The easiest way to get started with Remote Monitoring is to deploy the running 
 application to your Azure subscription through the command line interface 
 [CLI](https://github.com/Azure/pcs-cli). Deployment instructions for the CLI 
 are in the CLI repository.  These instructions will show you how to deploy 
 all Remote Monitoring resources, with seed data, and see a running solution.  
 You can then customize, extend, or replace the components of the system to 
-meet your needs.  The [Developer Reference Guide](https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet/wiki/Developer-Reference-Guide) will facilitate customization by showing how to replace the containers deployed
+meet your needs.  The [Developer Reference Guide](https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet/wiki/Developer-Reference-Guide) 
+will facilitate customization by showing how to replace the containers deployed
 by the CLI with your own.
 
-You can also run everything for Remote Monitoring on your local machine if desired.  You do this through the following:
+To run Remote Monitoring on your local machine:
+Once you become familiar with the solution you potentially will want to run 
+the solution locally.  You can do so through the following:
 1. Clone the repo with:
-   `git clone --recursive https://github.com/Azure/azure-iot-pcs-remote-monitoring-java`
-1. Install Docker: https://www.docker.com
-1. Create your IoT Hub either using the Azure Portal or by executing the IoT
+   `git clone --recursive https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet`
+2. Install Docker: https://www.docker.com
+3. Create your IoT Hub either using the Azure Portal or by executing the IoT
    Hub creation helper script in the repository:
    [scripts/iothub/create-hub.sh](scripts/iothub/create-hub.sh)
-1. Create required environment variables: {TODO - need a script for this}
-1. Run the local deployment script: {TODO}
+4. Create required environment variables: {TODO - need a script for this}
+5. Run the local deployment script: {TODO}
 
 Configuration
 =============
