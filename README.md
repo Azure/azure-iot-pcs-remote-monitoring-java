@@ -45,6 +45,7 @@ How to use it
 =============
 
 To run Remote Monitoring in your Azure Subscription:
+
 The easiest way to get started with Remote Monitoring is to deploy the running 
 application to your Azure subscription through the command line interface 
 [CLI](https://github.com/Azure/pcs-cli). Deployment instructions for the CLI 
