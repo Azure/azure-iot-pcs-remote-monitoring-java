@@ -61,7 +61,7 @@ To run Remote Monitoring on your local machine:
 Once you become familiar with the solution you potentially will want to run 
 the solution locally.  You can do so through the following:
 1. Clone the repo with:
-   `git clone --recursive https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet`
+   `git clone --recursive https://github.com/Azure/azure-iot-pcs-remote-monitoring-java`
 2. Install Docker: https://www.docker.com
 3. Create your IoT Hub either using the Azure Portal or by executing the IoT
    Hub creation helper script in the repository:
