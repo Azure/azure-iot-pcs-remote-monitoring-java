@@ -19,8 +19,7 @@ Overview
 >
 > * Java versions of the following Microservices: IoT Hub Manager and
 Configuration (see [Architecture Overview](https://github.com/Azure/azure-iot-pcs-remote-monitoring-java#architecture-overview)) 
-> * Extended method support for your simulated devices to help demo and
-test additional scenarios
+> * Extended method support for your simulated devices to help demo and test additional scenarios. Details about the Contoso sample devices and rules can be found in the documentation [here](https://docs.microsoft.com/en-us/azure/iot-suite/iot-suite-remote-monitoring-explore). Currently the simulated Chiller device is fully implemented, the other device methods detailed will be built and validated in the coming months. If you’d like to add or extend the simulated devices yourself you can start with this [tutorial]( https://review.docs.microsoft.com/en-us/azure/iot-suite/iot-suite-remote-monitoring-test) as reference . 
 > * Additional ‘Getting Started’ and ‘Customization’ documentation in our
 GitHub repositories 
 > * Easier retrieval of your physical’s device connection string in
