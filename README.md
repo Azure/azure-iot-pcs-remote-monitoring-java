@@ -73,7 +73,7 @@ Getting Started
 1. Open a terminal window or command shell
 1. Check out the repository and submodules
     ```
-    git clone --recursive https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet.git
+    git clone --recursive https://github.com/Azure/azure-iot-pcs-remote-monitoring-java
     ```
 1. Set up command line interface for deployments
     ```
