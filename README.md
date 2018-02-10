@@ -75,13 +75,31 @@ Getting Started
     ```
     git clone --recursive https://github.com/Azure/azure-iot-pcs-remote-monitoring-java
     ```
+    If you cloned the repo without the `--recursive` flag and it's your first time updating the submodules, you can use
+    `git submodule update --init --recursive`. More information on submodules [here](https://git-scm.com/book/en/v2/Git-Tools-    Submodules). 
+    
 1. Set up command line interface for deployments
+
+     #### Prerequisite
+    * Install [npm](https://www.npmjs.com/get-npm)
+
+    #### Mac/Linux
+    
     ```
-    cd pcs-cli
+    cd azure-iot-pcs-remote-monitoring-java/cli
     npm install
     npm start
     npm link
     ```
+    #### Windows
+    
+    ```
+    cd azure-iot-pcs-remote-monitoring-java\cli
+    npm install
+    npm start
+    npm link
+    ```
+    
 1. Sign into your Azure account with
     ```
     pcs login
