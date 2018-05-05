@@ -125,12 +125,12 @@ tag_build_publish_repo config             pcs-config-java
 tag_build_publish_repo iothub-manager     iothub-manager-java
 tag_build_publish_repo storage-adapter    pcs-storage-adapter-java
 tag_build_publish_repo telemetry          device-telemetry-java                 telemetry-java
-tag_build_publish_repo telemetry-agent    telemetry-agent-java
 
 # Top Level repo
 tag_build_publish_repo ""                 azure-iot-pcs-remote-monitoring-java  ""                  $DESCRIPTION
 
 # Only dotnet exists
+# tag_build_publish_repo asa-manager        asa-manager-dotnet
 # tag_build_publish_repo auth               pcs-auth-dotnet
 # tag_build_publish_repo device-simulation  device-simulation-dotnet
 
