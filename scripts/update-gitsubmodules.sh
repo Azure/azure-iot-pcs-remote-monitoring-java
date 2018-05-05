@@ -24,8 +24,8 @@ echo -e "${COL}### Storage Adapter${NOCOL}"
 cd $APP_HOME && git submodule update --init storage-adapter   && cd storage-adapter   && git checkout master && git pull
 echo -e "${COL}### Telemetry${NOCOL}"
 cd $APP_HOME && git submodule update --init telemetry         && cd telemetry         && git checkout master && git pull
-echo -e "${COL}### Telemetry Agent${NOCOL}"
-cd $APP_HOME && git submodule update --init telemetry-agent   && cd telemetry-agent   && git checkout master && git pull
+echo -e "${COL}### ASA Manager${NOCOL}"
+cd $APP_HOME && git submodule update --init asa-manager       && cd asa-manager       && git checkout master && git pull
 echo -e "${COL}### Web UI${NOCOL}"
 cd $APP_HOME && git submodule update --init webui             && cd webui             && git checkout master && git pull
 
