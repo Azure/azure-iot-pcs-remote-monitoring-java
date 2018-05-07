@@ -76,13 +76,13 @@ Architecture Overview
 
 How-to and Troubleshooting Resources
 ====================================
-* [Developer Troubleshooting Guide](https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet/wiki/Developer-Troubleshooting-Guide)
-* [Developer Reference Guide](https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet/wiki/Developer-Reference-Guide#running-all-pcs-microservices-locally)
+* [Developer Troubleshooting Guide](https://github.com/Azure/azure-iot-pcs-remote-monitoring-java/wiki/Developer-Troubleshooting-Guide)
+* [Developer Reference Guide](https://github.com/Azure/azure-iot-pcs-remote-monitoring-java/wiki/Developer-Reference-Guide#running-all-pcs-microservices-locally)
 
 Feedback
 ========
 * If you have feedback, feature requests, or find a problem, you can create
-a new issue in the [GitHub Issues](issues)
+a new issue in the [GitHub Issues][issues-url]
 * We have a [User Voice](https://feedback.azure.com/forums/321918-azure-iot)
 channel to receive suggestions for features and future supported scenarios.
 
@@ -95,16 +95,16 @@ License
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the [MIT](LICENSE) License.
 
-[build-badge]: https://img.shields.io/travis/Azure/azure-iot-pcs-remote-monitoring-dotnet.svg
-[build-url]: https://travis-ci.org/Azure/azure-iot-pcs-remote-monitoring-dotnet
-[issues-badge]: https://img.shields.io/github/issues/azure/azure-iot-pcs-remote-monitoring-dotnet.svg
-[issues-url]: https://github.com/azure/azure-iot-pcs-remote-monitoring-dotnet/issues
+[build-badge]: https://img.shields.io/travis/Azure/azure-iot-pcs-remote-monitoring-java.svg
+[build-url]: https://travis-ci.org/Azure/azure-iot-pcs-remote-monitoring-java
+[issues-badge]: https://img.shields.io/github/issues/azure/azure-iot-pcs-remote-monitoring-java.svg
+[issues-url]: https://github.com/azure/azure-iot-pcs-remote-monitoring-java/issues
 [gitter-badge]: https://img.shields.io/gitter/room/azure/iot-solutions.js.svg
 [gitter-url]: https://gitter.im/Azure/iot-solutions
-[azure-active-directory]: https://azure.microsoft.com/services/active-directory/
-[iot-hub]: https://azure.microsoft.com/services/iot-hub/
-[cosmos-db]: https://azure.microsoft.com/services/cosmos-db/
-[container-service]: https://azure.microsoft.com/services/container-service/
+[azure-active-directory]: https://azure.microsoft.com/services/active-directory
+[iot-hub]: https://azure.microsoft.com/services/iot-hub
+[cosmos-db]: https://azure.microsoft.com/services/cosmos-db
+[container-service]: https://azure.microsoft.com/services/container-service
 [storage-account]: https://docs.microsoft.com/azure/storage/common/storage-introduction#types-of-storage-accounts
-[virtual-machines]: https://azure.microsoft.com/services/virtual-machines/
-[web-application]: https://azure.microsoft.com/services/app-service/web/
+[virtual-machines]: https://azure.microsoft.com/services/virtual-machines
+[web-application]: https://azure.microsoft.com/services/app-service/web
