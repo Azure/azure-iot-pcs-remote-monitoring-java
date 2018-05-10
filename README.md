@@ -66,7 +66,7 @@ Architecture Overview
 * [Command Line Interface (CLI)](https://github.com/Azure/pcs-cli)
 * [IoT Hub manager](https://github.com/Azure/iothub-manager-java)
 * [User Management](https://github.com/Azure/pcs-auth-dotnet)
-* [Device Simulation](https://github.com/Azure/device-simulation-java)
+* [Device Simulation](https://github.com/Azure/device-simulation-dotnet)
 * [Telemetry](https://github.com/Azure/device-telemetry-java)
 * [ASA Manager](https://github.com/Azure/asa-manager-dotnet)
 * [Configuration](https://github.com/azure/pcs-config-java)
