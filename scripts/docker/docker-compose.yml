@@ -6,7 +6,7 @@
 # - run `docker-compose up`
 # - open the browser at http://127.0.0.1:10443
 #
-# For more information see 
+# For more information see
 # https://github.com/Azure/azure-iot-pcs-remote-monitoring-java
 
 version: "3"
@@ -51,6 +51,8 @@ services:
 
   iothubmanager:
     image: azureiotpcs/iothub-manager-java
+    depends_on:
+      - storageadapter
     ports:
       - "9002:9002"
     environment:
@@ -58,8 +60,7 @@ services:
       - PCS_AUTH_ISSUER
       - PCS_AUTH_AUDIENCE
       - PCS_APPLICATION_SECRET
-      # TODO: the dependency on config is temporary
-      - PCS_CONFIG_WEBSERVICE_URL=http://config:9005/v1
+      - PCS_STORAGEADAPTER_WEBSERVICE_URL=http://storageadapter:9022/v1
 
   devicesimulation:
     image: azureiotpcs/device-simulation-dotnet:latest
@@ -104,7 +105,6 @@ services:
       - PCS_STORAGEADAPTER_WEBSERVICE_URL=http://storageadapter:9022/v1
       - PCS_DEVICESIMULATION_WEBSERVICE_URL=http://devicesimulation:9003/v1
       - PCS_TELEMETRY_WEBSERVICE_URL=http://telemetry:9004/v1
-      - PCS_IOTHUBMANAGER_WEBSERVICE_URL=http://iothubmanager:9002/v1
 
   storageadapter:
     image: azureiotpcs/pcs-storage-adapter-java:latest
