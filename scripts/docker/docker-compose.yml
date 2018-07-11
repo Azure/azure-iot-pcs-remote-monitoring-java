@@ -95,6 +95,8 @@ services:
     image: azureiotpcs/pcs-config-java:latest
     depends_on:
       - storageadapter
+      - devicesimulation
+      - telemetry
     ports:
       - "9005:9005"
     environment:
