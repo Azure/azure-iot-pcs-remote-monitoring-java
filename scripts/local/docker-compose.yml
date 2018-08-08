@@ -16,10 +16,30 @@
 version: "3"
 
 services:
+
+  asamanager:
+    image: azureiotpcs/asa-manager-dotnet:testing
+    depends_on:
+      - config
+      - telemetry
+      - iothubmanager
+    ports:
+      - "9024:9024"
+    environment:
+      - PCS_CONFIG_WEBSERVICE_URL=http://config:9005/v1
+      - PCS_TELEMETRY_WEBSERVICE_URL=http://telemetry:9004/v1
+      - PCS_IOTHUBMANAGER_WEBSERVICE_URL=http://iothubmanager:9002/v1
+      - PCS_ASA_DATA_AZUREBLOB_ACCOUNT
+      - PCS_ASA_DATA_AZUREBLOB_KEY
+      - PCS_ASA_DATA_AZUREBLOB_ENDPOINT_SUFFIX
+      - PCS_EVENTHUB_CONNSTRING
+      - PCS_EVENTHUB_NAME
+      - PCS_TELEMETRY_DOCUMENTDB_CONNSTRING
+
   reverseproxy:
     image: azureiotpcs/remote-monitoring-nginx:testing
     ports:
-      - "8080:80"
+      - "10080:10080"
     depends_on:
       - webui
       - auth
@@ -105,7 +125,7 @@ services:
       - PCS_STORAGEADAPTER_WEBSERVICE_URL=http://storageadapter:9022/v1
       - PCS_DEVICESIMULATION_WEBSERVICE_URL=http://devicesimulation:9003/v1
       - PCS_TELEMETRY_WEBSERVICE_URL=http://telemetry:9004/v1
-      - PCS_BINGMAP_KEY
+      - PCS_AZUREMAPS_KEY
       - PCS_AUTH_ISSUER
       - PCS_AUTH_AUDIENCE
       - PCS_AUTH_REQUIRED
