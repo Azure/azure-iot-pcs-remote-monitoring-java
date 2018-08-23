@@ -40,19 +40,15 @@ The scripts folder is organized as follows\
 i. **docker** scripts to deploy "released" tagged containers using docker-compose.\
 ii. **local** scripts to deploy "testing" tagged containers using docker-compose.\
 iii. **iothub** scripts to deploy create azure iot hub.\
-&nbsp; 
+
 ![top-level-scripts](https://user-images.githubusercontent.com/39531904/44433416-f4f2e980-a55a-11e8-8e3b-fc784788da58.PNG)\
-The docker build scripts require environment variables to be set before execution. 
-&nbsp; 
+The docker build scripts require environment variables to be set before execution.  
 
 2) [Cli](https://github.com/Azure/pcs-cli)  
-This submodule contains cli source code, which can be used to deploy azure resources or create basic or standard deployments of the product 
-&nbsp;  
+This submodule contains cli source code, which can be used to deploy azure resources or create basic or standard deployments of the product.   
 
 3) [Services](https://github.com/Azure/remote-monitoring-services-java) 
 This submodule is link to the repository containing all the microservices.  
-&nbsp;
 
 4) [Webui](https://github.com/Azure/pcs-remote-monitoring-webui)
 This submodule is a link to ui component of the project. 
-&nbsp; 
