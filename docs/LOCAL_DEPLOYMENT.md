@@ -41,7 +41,7 @@ i. **docker** scripts to deploy "released" tagged containers using docker-compos
 ii. **local** scripts to deploy "testing" tagged containers using docker-compose.\
 iii. **iothub** scripts to deploy create azure iot hub.\
 
-![top-level-scripts](https://user-images.githubusercontent.com/39531904/44433416-f4f2e980-a55a-11e8-8e3b-fc784788da58.PNG)  The docker build scripts require environment variables to be set before execution.  
+![top-level-scripts](https://user-images.githubusercontent.com/39531904/44433416-f4f2e980-a55a-11e8-8e3b-fc784788da58.PNG)\ The docker build scripts require environment variables to be set before execution.  
 
 2) [Cli](https://github.com/Azure/pcs-cli): This submodule contains cli source code, which can be used to deploy azure resources or create basic or standard deployments of the product.   
 
