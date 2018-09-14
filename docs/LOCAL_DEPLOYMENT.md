@@ -23,7 +23,7 @@ Submodule 'webui' (https://github.com/Azure/azure-iot-pcs-remote-monitoring-webu
 ````
 2) Update your git sub-modules
 ```
-cd azure-iot-pcs-remote-monitoring-java
+cd <repo-name>
 
 git submodule foreach git pull origin master
 ```
