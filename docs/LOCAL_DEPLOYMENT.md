@@ -21,7 +21,11 @@ Submodule 'services' (https://github.com/Azure/remote-monitoring-services-java.g
 Submodule 'webui' (https://github.com/Azure/azure-iot-pcs-remote-monitoring-webui.git) registered for path 'webui'
 .....
 ````
-2) It is safe to delete existing microservice folders (except for services folder) under the top-level of the repository. Please do not delete web-ui, cli and reverse-proxy folders.
+2) Update your git sub-modules
+```
+git submodule foreach git pull origin master
+```
+3) It is safe to delete existing microservice folders (except for services folder) under the top-level of the repository. Please do not delete web-ui, cli and reverse-proxy folders.
 &nbsp; 
 #### If you have do not have an existing cloned repository
 1) Follow the step 1  of "existing cloned repo". You will not require to delete anything. Ensure you have services sub-module, which contains all the microservices.
