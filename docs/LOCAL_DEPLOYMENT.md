@@ -7,6 +7,9 @@ This document and other documents, referenced here, contain steps to git clone t
 ### Steps to clone the restructured repository
 #### If you have an existing cloned repository
 1) Use recursive clone to clone the repository and the sub-modules.
+```
+git clone --recurse-submodules  https://github.com/Azure/azure-iot-pcs-remote-monitoring-java.git
+```
 ````console
 #### For git version 2.17.1
 abc@pcs git clone --recurse-submodules  https://github.com/Azure/azure-iot-pcs-remote-monitoring-java.git
