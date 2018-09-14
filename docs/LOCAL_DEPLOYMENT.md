@@ -24,6 +24,7 @@ Submodule 'webui' (https://github.com/Azure/azure-iot-pcs-remote-monitoring-webu
 2) Update your git sub-modules
 ```
 cd azure-iot-pcs-remote-monitoring-java
+
 git submodule foreach git pull origin master
 ```
 3) It is safe to delete existing microservice folders (except for services folder) under the top-level of the repository. Please do not delete web-ui, cli and reverse-proxy folders.
